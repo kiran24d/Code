@@ -1,0 +1,7 @@
+{
+  "name": "MySQLDB",
+  "run_list": [
+    "recipe[mysql::Install-server]",
+    "recipe[mysql::reset-initialpassword]"
+  ]
+}

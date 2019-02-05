@@ -1,0 +1,30 @@
+{
+    "name": "pan",
+    "description": "",
+    "json_class": "Chef::Role",
+    "default_attributes": {
+
+    },
+    "override_attributes": {
+        "vhosts": [{
+            "path": "/etc/nginx/conf.d/virtualhosts.conf",
+            "http_port": 80,
+            "server_name": "signedge.in.pan.com",
+            "ssl": true,
+            "https_port": 443,
+            "public_crt": "/etc/ssl/nginx/signedge.in.pan.com/domain.crt",
+            "private_key": "/etc/ssl/nginx/signedge.in.pan.com/domain.key",
+            "reverse_proxy": true,
+            "ui_reverse_proxy_port" : 9002,
+            "api_reverse_proxy_port" : 9001
+        }]
+    },
+    "chef_type": "role",
+    "run_list": [
+          "recipe[nginx::install]",
+          "recipe[nginx::vhosts]"
+    ],
+    "env_run_lists": {
+
+    }
+}
