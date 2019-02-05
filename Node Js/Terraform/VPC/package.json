@@ -1,0 +1,22 @@
+{
+  "name": "vpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vpc.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yogeshdass/NodeJS.git"
+  },
+  "author": "yogeshdass",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/yogeshdass/NodeJS/issues"
+  },
+  "homepage": "https://github.com/yogeshdass/NodeJS#readme",
+  "dependencies": {
+    "aws-sdk": "^2.229.1"
+  }
+}

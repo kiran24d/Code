@@ -1,0 +1,19 @@
+
+[
+    {
+        "Key":"Environment",
+        "Value":"DEV"
+    },
+    {
+        "Key":"Product",
+        "Value":"Impressico"
+    },
+    {
+        "Key":"Resource",
+        "Value":"VPC"
+    },
+    {
+        "Key":"Build_Number",
+        "Value":"1"
+    }
+]
