@@ -1,4 +1,4 @@
 cfn-flip==1.1.0.post1
 Click==7.0
-PyYAML==4.2b4
+PyYAML==5.4
 six==1.12.0
